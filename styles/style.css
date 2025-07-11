@@ -112,6 +112,7 @@ nav ul a{
     
 }
 
+
 main{
     max-width: 1170px;
     margin: 0 auto;
@@ -229,4 +230,41 @@ main{
 
 .download-cv{
     margin: 50px 0 110px 0;
+}
+
+/* footer sec style */
+
+.footer{
+    background-color: #FFF8F3;
+    padding: 140px 230px;
+}
+
+.footer-col{
+    display: flex;
+    gap: 120px;
+}
+
+.connect-col h3, .message-col h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.connect-col p{
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.connect-col img{
+    margin-right: 20px;
+}
+
+.message-col input[type="text"], .Email, .message{
+    width: 100%;
+    color: #474747;
+    background-color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
