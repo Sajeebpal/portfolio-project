@@ -27,7 +27,7 @@ nav {
 nav ul li{
     list-style: none;
     display: inline ;
-    margin-right: 20px;
+    margin-left: 40px;
     font-size: 20px;
 
 }
@@ -42,12 +42,58 @@ nav ul a{
 
 .btn-primary{
     height: 60px;
-    width: 150px;
+    /* width: 150px; */
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 18px 35px;
     border: none;
     background-color: #FD6E0A;
     color: white;
     border-radius: 8px;
+}
+
+.banner-content{
+    width: 585px;
+}
+
+.greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.my-name{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.my-profile-pic{
+    width: 584px;
+}
+
+.download{
+    margin-right: 20px;
+}
+.banner{
+    
+    display: flex;
+    align-items: center;
+    margin: 0px 26px 0px 200px;
+    justify-content: space-between;
+}
+
+.header{
+    padding: 20px;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+    
 }
